@@ -15,6 +15,7 @@
 		D36F4DB52068A7CF000E5B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36F4DB32068A7CF000E5B00 /* LaunchScreen.storyboard */; };
 		D36F4DC02068A7CF000E5B00 /* LottieDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36F4DBF2068A7CF000E5B00 /* LottieDemoTests.swift */; };
 		D3B5826B2068BA5B003ABD0F /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D3B5826A2068BA5B003ABD0F /* servishero_loading.json */; };
+		D3B582702068BB03003ABD0F /* Lottie.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3B582712068BB03003ABD0F /* Lottie.framework */; };
 		DD261F1C3DD706D1A5935422 /* Pods_LottieDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F958AC7AED658555650AB7 /* Pods_LottieDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,19 @@
 			remoteInfo = LottieDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D3B5826F2068BACA003ABD0F /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0F3E43194DE53BAAB4725A0C /* Pods-LottieDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LottieDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LottieDemo/Pods-LottieDemo.debug.xcconfig"; sourceTree = "<group>"; };
@@ -45,6 +59,7 @@
 		D36F4DBF2068A7CF000E5B00 /* LottieDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieDemoTests.swift; sourceTree = "<group>"; };
 		D36F4DC12068A7CF000E5B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D3B5826A2068BA5B003ABD0F /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
+		D3B582712068BB03003ABD0F /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0F958AC7AED658555650AB7 /* Pods_LottieDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -53,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B582702068BB03003ABD0F /* Lottie.framework in Frameworks */,
 				DD261F1C3DD706D1A5935422 /* Pods_LottieDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -71,6 +87,7 @@
 		4D7BCC63428CBAA545140CD8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D3B582712068BB03003ABD0F /* Lottie.framework */,
 				E0F958AC7AED658555650AB7 /* Pods_LottieDemo.framework */,
 				5374DE17D65BB59E15A56892 /* Pods_LottieDemoTests.framework */,
 			);
@@ -144,6 +161,7 @@
 				D36F4DA52068A7CF000E5B00 /* Resources */,
 				921ADFF43FAE0B0B9033F75E /* [CP] Embed Pods Frameworks */,
 				082E5EF936344A57B7653FAE /* [CP] Copy Pods Resources */,
+				D3B5826F2068BACA003ABD0F /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
