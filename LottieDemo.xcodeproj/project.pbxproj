@@ -14,6 +14,7 @@
 		D36F4DB22068A7CF000E5B00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D36F4DB12068A7CF000E5B00 /* Assets.xcassets */; };
 		D36F4DB52068A7CF000E5B00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D36F4DB32068A7CF000E5B00 /* LaunchScreen.storyboard */; };
 		D36F4DC02068A7CF000E5B00 /* LottieDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D36F4DBF2068A7CF000E5B00 /* LottieDemoTests.swift */; };
+		D3B5826B2068BA5B003ABD0F /* servishero_loading.json in Resources */ = {isa = PBXBuildFile; fileRef = D3B5826A2068BA5B003ABD0F /* servishero_loading.json */; };
 		DD261F1C3DD706D1A5935422 /* Pods_LottieDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E0F958AC7AED658555650AB7 /* Pods_LottieDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -43,6 +44,7 @@
 		D36F4DBB2068A7CF000E5B00 /* LottieDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LottieDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D36F4DBF2068A7CF000E5B00 /* LottieDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieDemoTests.swift; sourceTree = "<group>"; };
 		D36F4DC12068A7CF000E5B00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B5826A2068BA5B003ABD0F /* servishero_loading.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = servishero_loading.json; sourceTree = "<group>"; };
 		E0F958AC7AED658555650AB7 /* Pods_LottieDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LottieDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -109,6 +111,7 @@
 		D36F4DA92068A7CF000E5B00 /* LottieDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3B5826A2068BA5B003ABD0F /* servishero_loading.json */,
 				D36F4DAA2068A7CF000E5B00 /* AppDelegate.swift */,
 				D36F4DAC2068A7CF000E5B00 /* ViewController.swift */,
 				D36F4DAE2068A7CF000E5B00 /* Main.storyboard */,
@@ -219,6 +222,7 @@
 			files = (
 				D36F4DB52068A7CF000E5B00 /* LaunchScreen.storyboard in Resources */,
 				D36F4DB22068A7CF000E5B00 /* Assets.xcassets in Resources */,
+				D3B5826B2068BA5B003ABD0F /* servishero_loading.json in Resources */,
 				D36F4DB02068A7CF000E5B00 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
